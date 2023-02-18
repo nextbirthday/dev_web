@@ -1,0 +1,2144 @@
+|CTAG_1665018406_1883345890_19488_0
+|it config --global core.editor "code --wait"
+|it config --global core.editor "code --wait"
+git config --global core.editor "code --wait"
+|lias
+|s
+||
+|it config --global -e
+generate new ssh key
+$ ssh-keygen -t ed25519 -C "dumarsyoon@gmail.com"
+ssh-keygen -t ed25519 -C "dumarsyoon@gmail.com"
+|d .ssh/
+|d .ssh/ll
+cd .ssh/ll
+|d .ssh/
+|l
+cd .ssh/ ll
+cd .ssh/
+|l
+|s -al
+cd ~/.ssh/
+cd ../.ssh/
+|s -al
+ clip < ~/.ssh/id_ed25519.pub
+clip < ~/.ssh/id_25519.pub
+clip < ~/.ssh/id_ed25519.pub
+clip < ./id_ed25519.pub
+cat id_ed25519.pub
+ssh -T git@github.com
+cd Java
+git@github.com:dmuars/workout.git
+git clonegit@github.com:dmuars/workout.git
+git clone git@github.com:dmuars/workout.git
+|d workout
+|it config --local user.email "dumarsyoon@gmail.com"
+git config --local user.name "dmuars"
+|it config --local -e
+workout
+workour folder
+|d workout
+|d java/workout
+|it status
+git add.
+|it status
+|it add .
+|it status
+|it status
+git restore --staged *
+|it add .
+|it status
+|it commit
+|it status
+git push origin main
+|it pull
+|d workout
+|it pull
+|it add .
+|it status
+|d java/workout
+|it pull
+|d java/workout
+|it add .
+|it status
+|it pull
+|it push
+|d java/workout
+|it push
+|it fetch
+|it merge
+|it commit
+|it push
+|it fetch
+|it pull
+|it merge
+|it add .
+|d java/workout
+|it commit
+|it status
+|it add .
+|it fetch
+|it status
+|it commit
+git mergfe
+|it merge
+|it status
+|it push
+|d java/workout
+|it status
+|it status
+|it status
+|it add .
+|it status
+git commit -m "test commit"
+|it status
+|it push
+|it fetch
+|it pull
+|it merge
+|it push
+|d java/workout
+|it status
+|it status
+|it add .
+|it status
+|it commit
+|it status
+|it push
+|it status
+|it add .
+|it status
+|it commit
+|it push
+|it log
+|d java/workout
+|it status
+|it add .
+|it status
+|it add .
+|it commit
+|it status
+|it add .
+|it commit
+|it status
+|it push
+|it status
+|it pull
+|d java/workout
+|it status
+|it add .
+|it push
+|it pull
+|d java/workout
+|it status
+|it pull
+|it status
+|it commit
+|d java/workout
+|it status
+|it fetch
+|it pull
+|it merge
+|pconfig -all
+ipconfig -all
+|d java/workout
+|it status
+|it add .
+|it status
+|it commit
+|it status
+|it push
+|it staus
+|it status
+|d java/workout
+|it status
+|it pull
+|it status
+|it add .
+|it status
+|it pull
+|it status
+git restre --staged <file>...
+|it fetch
+|it pull
+|it merge
+|it status
+|it push
+|it status
+|d java/workout
+|it status
+|it add .
+|it status
+|it push
+|it fetch
+|it push
+|it pull
+|it fetch
+|it push
+|it status
+|it commit
+|it status
+|it push
+|it status
+|d java/workout
+|it status
+|it commit
+|it add .
+|it commit
+|it push
+|it status
+|it pull
+|it status
+|d java/workout
+|it status
+|it status
+|it add .
+|it commit
+|it push
+|it pull
+|it status
+|d java/workout
+|it status
+|it add .
+|it pull
+|it commit
+|d java/workout
+|it status
+|it add .
+|it pull
+|it commit
+|it status
+|it push
+|it status
+slmgr -dlv
+|d java/workout
+|it status
+|it add .
+|it pull
+|it commit
+|it push
+|it status
+id congif all
+config all
+id config all
+ip config all
+ip config
+ip config--
+|pconfig
+ipconfig all-
+|pconfig
+ipconfig all--
+ipconfig /all
+|d java/workout
+|it status
+|it pull
+|it add .
+|it merge
+|it commit
+|it status
+|it push
+|it status
+|d java/workout
+|it status
+|it add .
+|it merge
+|it pull
+|it commit
+|it push
+|it pull
+|it push
+|it status
+|it status
+|d java/workout
+|it status
+|it add .
+|it pull
+|it status
+|it add .
+|it commit
+|it status
+|it pull
+|it status
+|it commit
+|it add .
+|it status
+|it commit
+|it status
+|it push
+|it status
+|it status
+|it pull
+|it merge
+|it fetch
+|d java/workout
+|it status
+|it add .
+|it status
+|it pull
+|it status
+|it commit
+|it status
+|it push
+|it status
+|d java/workout
+|it status
+|it add .
+|it pull
+|it status
+|it pull
+|it status
+|it pull
+|it status
+|it merge
+|it status
+|it fetch
+|it pull
+|it status
+|it status
+|it add .
+|it commit
+|it status
+|it pull
+|it status
+|it commit
+|it status
+|it merge --abort
+|it status
+|it pull
+|it merge --abort
+|it commut
+git commut
+|it commit
+|it pull
+|it merge
+|d java/workout
+|it status
+git pull origin master
+git checkout feature/branch
+|it merge master
+git stash
+|it log
+|d java/workout
+|it status
+|it add .
+|it status
+|it commit
+|it status
+|it push
+|it status
+|d java/workout
+|it pull
+|it merge
+git merge master
+|it add .
+|it pull
+|it merge
+|d java/workout
+|it status
+|it pull
+|it status
+|it pull
+|it status
+|it pull
+|it pull
+|it status
+|it add .
+|it status
+|it pull
+|it status
+|it pull
+|it status
+|it merge
+|it pull
+|it status
+|it fetch
+|it status
+|it pull
+|it commit
+|it pull
+|it status
+|it commit
+|it merge
+|it status
+|it add .
+git staus
+|it status
+git restore *
+|it fetch
+|it merge
+|it mergetool
+|it status
+|it commit
+|it merge
+|it status
+|it push
+|it status
+|d java/workout
+|it status
+|it pull
+|it status
+|it status
+|it pull
+|it add .
+|it commit
+|it pull
+|it status
+|d java/workout
+|it status
+|it status
+|it pull
+|it status
+git close
+|it --help
+|it push
+|d java/workout
+|it status
+|it add .
+|it status
+|it commit
+|it status
+|it push
+|d java/workout
+|it status
+|it add .
+|it status
+|it commit
+|it status
+|it push
+|it fetch
+|it status
+|it add .
+|it status
+|it push
+|it pull
+|it status
+|it pull
+|it status
+|it commit
+|it push
+|it pull
+|it stauts
+|it status
+|it push
+|it status
+|d java/workout
+|it status
+|it add .
+|it status
+|it commit
+|it status
+|it push
+|it status
+|it status
+|d java/workout
+|it status
+|it fetch
+|it status
+|it pull
+|it status
+|it add .
+|it status
+git commit.
+|it commit
+|it status
+|it status
+|it merge
+|it pull
+|it status
+|d java/workout
+|it status
+|it add .
+|it status
+|it commit
+|it status
+|it push
+git stauts
+|it status
+|ava -version
+|ava -version
+|ode .
+git --v
+|it --version
+java -version
+|it config --global -e
+git config --global 0e
+|it config --global -e
+|it config --global -e
+|d java/workout
+|it status
+|it status
+|it status
+|d java/workout
+|it status
+|it add .
+|it status
+|it merge
+|it status
+|it pull
+|it status
+|it add .
+|it commit
+|it status
+|it push
+|it status
+|d java/workout
+|it status
+|it add .
+|it commit
+|it status
+|it push
+|it status
+|d java/workout
+|d java/workout
+|it status
+|it add .
+|it status
+git commit -m "11월 30일"
+|it push
+|it status
+|d java/workout
+|it status
+|it add .
+git commit -m "12월 1일 강의내용"
+|it hist
+|it history
+|it status
+|it push
+|it status
+|d java/workout
+|it status
+|it add .
+|it status
+git commit -m "12월 1일"
+|it push
+git config -all
+|it status
+|d java/workout
+|it status
+|it add .
+|it status
+git commit -m "12월 02일"
+|it status
+|it push
+|it status
+|it status
+|it config --global -e
+|d java/workout
+|it status
+|it pull
+|it status
+|it add .
+|it status
+|it commit
+|it status
+|it add .
+|it status
+|it commit
+|it status
+|it push
+|it status
+|d java/workout
+|it config --global -e
+|d java/workout
+|it status
+|it status
+|it config --global -e
+|it status
+|d java/workout
+|it status
+|it add .
+|it status
+|it commit
+|it status
+|it push
+|it status
+|it status
+|d java/workout
+|it status
+|it add .
+|it status
+git commit -m "12월 6일 강의 내용"
+|it status
+|it push
+|it status
+|it status
+|d java/workout
+|it status
+|it add .
+|it status
+git commit -m "12월 7일 강의 내용"
+|it status
+|it push
+|d java/workout
+|it status
+|it add .
+|it status
+git commit -m "12월 9일 강의 내용"
+|it status
+|it push
+|it status
+|d java/workout
+|it status
+|it pull
+|it status
+|it status
+|it status
+|d java/workout
+|it status
+|it pull
+|it status
+|d java/workout
+|it status
+|it add .
+|it status
+git restore 
+|it status
+git restore ./*
+guit status
+|it status
+|it commit
+|it status
+|it push
+|it status
+|it status
+|it add .
+|it status
+|it commit
+|it status
+|it push
+git sttus
+|it status
+|it status
+|d java/workout
+|it status
+|it pull
+|it status
+|d java/workout
+|it status
+|it pull
+|it status
+|it add .
+|it status
+git commit -m "12월 12일~12월 16일"
+|it status
+|it pull
+|it status
+|it add .
+|it status
+|it status
+|it pull
+|it merge
+|it status
+|it commit
+|it status
+|it push
+|it status
+|d java/workout
+|it status
+cd java/workou
+|d java/workout
+|it status
+|it pull
+|it status
+|d java/workout
+|it status
+|it add .
+|it status
+|it commit
+|it status
+|it push
+|it status
+|d java/workout
+|it status
+|it status
+|it pull
+|it status
+|d java/workout
+|it status
+|it pull
+|it status
+|d java/workout
+|it status
+|it add .
+|it status
+"git restore --staged
+git restore --staged
+|it status
+|d java/workout
+|it status
+|it add .
+|it status
+|it commit
+|it status
+|it push
+|it status
+|d java/workout
+|it status
+|it add .
+|it status
+|it commit
+|it push
+|it status
+|d java/workout
+|it status
+|it pull
+|it status
+|d java/workout
+|it status
+|it add .
+|it status
+git commit -m "12월 14일 lecture - 상속"
+|it status
+|it push
+|it status
+git config --local 0e
+|it config --local -e
+|d java/workout
+|it config --local -e
+|d java/workout
+|it config --local -e
+|d java/workout
+|it status
+|it add .
+|it status
+|it status
+|it add .
+|it status
+git commit -m "git name change test"
+|it status
+|it push
+|it status
+|d java/workout
+|it status
+|it add .
+|it status
+git commit -m "lunch commit"
+|it status
+|it push
+|it status
+|d java/workout
+|it status
+|it add .
+|it status
+git commit -m "12월 15일 강의 커밋"
+|it status
+|it push
+|it status
+|d java/workout
+|it status
+|it pull
+|it status
+|d java/workout
+|it pull
+|it status
+|d java/workout
+|it status
+|it merge
+|it status
+|d java/workout
+|it status
+|d java/workout
+|it status
+|it pull
+|it status
+|it add .
+|it status
+|it pull
+|it status
+git commit -m "12월 16일 14:33 git pull"
+|it status
+|it push
+|it status
+|d java/workout
+|it status
+|it add .
+|it status
+git commit -m "12월 18일 개인과외"
+|it push
+|it status
+|d java/workout
+|it status
+|it pull
+|it status
+git add KH-HJAVA
+git add KH-JAVA
+|it status
+git commit -m "KH-JAVA commit"
+|it status
+|it push
+|it status
+|d java/workout
+|it status
+git pulll
+|it pull
+|it status
+|d java/workout
+|it status
+|it add .
+|it status
+git commit -m "KH Package delete"
+|it status
+|it push
+|d java/workout
+|it status
+|it pull
+|it add .
+git commit -m "12월 19일 Lecture"
+|it push
+|it status
+|d java/workout
+|it status
+|it pull
+|it status
+|d java/workout
+|it status
+|it pull
+|it merge
+|d java/workout
+|it status
+|it pull
+|d java/workout
+|it status
+|it add .
+|it status
+|it fetch
+git commit -m "20221222"
+|it merge
+|it mergetool
+git 
+|it status
+|it merge --continue
+|it status
+|it push
+|it status
+ip config --all
+|pconfig
+|d java/workout
+|it status
+|it pull
+|it status
+|d java/workout
+|it status
+|it log
+|d java/workout
+|it pull
+|it status
+|it status
+|it add .
+|it status
+git commit -m "TCP/IP"
+|it status
+|d C:\Users\HOJAE\Desktop\Java\workout\SampleJavaProject\bin
+|s
+|d C:\Users\HOJAE\Desktop\Java\workout\SampleJavaProject\bin
+|l
+|s
+|lias
+|lear
+java thread.TimeEchoServer 8888
+|d C:\Users\HOJAE\Desktop\Java\workout\SampleJavaProject\bin
+|ava thread.TimeEchoClient localhost 8888
+cd C:\Users\HOJAE\Desktop\Java\workout\SampleJavaProject\bin
+|ava thread.TimeEchoClient localhost 8888
+java thread.TimeEchoClient localhost 8888
+|d java/workout
+|it status
+|it pull
+|it status
+|it add .
+|it status
+git commit -m "christmas eve commit"
+|it status
+|it push
+|it status
+|it status
+|d java/workout
+|it status
+|d java/workout
+|it status
+|it add .
+|it status
+git commit -m "1225"
+|it status
+|it push
+|d java/workout
+|it status
+|it pull
+|it status
+|d java/workout
+|it status
+|it pull
+|it status
+|it status
+|it status
+|it pull
+|it merge
+|it status
+|d java/workout
+|it status
+cd E:\app\HOJAE\product\11.1.0\db_1\NETWORK\ADMIN
+cd e:/
+cd e
+cd -d e
+cd -d e:
+cd /?
+d /d e:
+cd /D e:
+cd \app\HOJAE\product\11.1.0\db_1\NETWORK\ADMIN
+|l
+|s
+vi listener
+|l
+|lias
+alias ll=ls -alF --show-control-chars --color $*
+|l
+|lear
+|l
+|d workout\
+|l
+|s
+|it status
+alias gs=git status $*
+|s
+|s
+|s
+|lear
+|s
+|it fetch
+|it add .
+|it commit
+|s
+|it fetch
+|it push
+|s
+git merge --no-commit 
+|s
+|it merge --continue
+|it mergetool
+|s
+explore .
+explorer .
+git config --global mergetool.keepBackup false
+|s
+|s
+|it merge --continue
+|it push
+cd java/workout
+|d workout
+|it status
+|d workout
+|it status
+|it commit
+|it status
+|it push
+|it status
+|it add .
+|it status
+git commit -m "tomcat server 연결"
+|it status
+|it push
+|it status
+|d workout
+|it status
+|it pull
+git tatus
+|it status
+|it pull
+|d workout
+|it pull
+|s -al ~/.ssh
+|d workout
+|s -al ~/.ssh
+ls -al ~/.ssh
+git remote -v
+cd desktop
+|qlplus "/as sysdba
+git --version
+cmder --version
+/c
+cmder -version
+/task
+|d workout
+|it status
+|it add .
+|it status
+git commit -m "20230102"
+|it status
+|it push
+|it pull
+|it status
+|it push
+|it status
+|it status
+|it config --global
+|it config --global -e
+cd ~/.ssh
+ ls -al
+cd C:\Users\HOJAE\.ssh
+ls- al
+|s -al
+cat id_rsa.pub
+ca id_ed25519.pub
+|it clone git@github.com:nextbirthday/Semi.git Semi
+git clone git@github.com:nextbirthday/Semi.git Semi
+vim f1.txt
+|d Semi
+|it status
+echo a.txt -> a.txt
+|it status
+|it add .
+|it status
+|it commit
+ls -al II
+|d Semi
+|it status
+|it commit -m 1
+|it config --local user.email "dumarsyoon@gmail.com"
+|it config --local user.name "nextbirthday"
+|it status
+git commit -m 1
+|it push
+|d workout
+|it status
+git restore chat
+|it status
+sqlplus
+sqlplus reol/ring@localhost:1521/orcl11
+|qlplus "/as sysdba
+|qlplus "/as sysdba
+|d workout
+|it status
+|it add .
+|it status
+git commit 
+|it push
+|it fetch
+|it status
+|it pull
+|it status
+|it push
+|d workout
+|it status
+|it pull
+|it status
+|d workout
+cd /.ssh
+|d workout
+|it status
+|it pull
+|it add .
+git commit -m "20230104"
+|it push
+|it status
+|d workout
+|it status
+|it add .
+git commit -m "삭제"
+|it push
+|it fetch
+|it status
+|it pull
+|it status
+git metge --abort
+|it status
+|it pull
+|it status
+git add/rm KH-JAVA/src/main/java/lecture_2023_01/week_1_Oracle/ZipCodeSearchView.java
+|it status
+|it add .
+|it status
+|it commit
+|it status
+|it push
+|it status
+|qlplus "/as sysdba
+|qlplus "/as sysdba
+|qlplus "/as sysdba
+|qlplus "/as sysdba
+|qlplus "/as sysdba
+cd C:\Users\HOJAE\git
+|it status
+|d C:\Users\HOJAE\git\SemiProject
+|it status
+git checkout feature/yoon
+git branch banana
+|it status
+|it checkout banana
+|it status
+git branch -d feature/yoon
+|it status
+|it add .
+|it status
+|it status
+git commit -m "banana브랜치 커밋"
+|it status
+|it push
+git push --set-upstream develop banana
+git push --set-upstream origin banana
+|it status
+|it status
+git merge develop
+|it status
+git merge
+git check develop
+|it status
+|it checkout master
+|it status
+|it checkout develop
+|it status
+git merge banana
+|it status
+|it push
+|it pull
+|it status
+|it push
+|it status
+git brancd -d banana
+|it checkout banana
+|it branch -d banana
+git checkout develop
+gitbranch -d banana
+|d C:\Users\HOJAE\git\SemiProject
+|it branch -d banana
+|it status
+|it status
+cd C:\Users\HOJAE\git\SemiProject
+|it status
+|it checkout banana
+|it checkout banana
+|it checkout banana
+|it checkout banana
+|it checkout banana
+|it checkout banana
+|it checkout banana
+git checkout banana
+|it branch -d banana
+|it hist
+ git status
+|it status
+git checkout master
+|it status
+|it hist
+|it history
+git --gelp
+git --help
+git help -a
+|it log
+cd Semi
+|it clone git@github.com:nextbirthday/Semi.git
+|it status
+|it status
+|it remote remove Semi
+cd C:\Users\HOJAE\Desktop\Java\Semi\Semi
+git remote remove Semi
+git init Semi
+git clone git@github.com:nextbirthday/Semi.git
+|it status
+|it status
+|d semi
+|it status
+|it status
+|it add .
+|it status
+|it commit
+git config --local
+ git config --local user.email "dumarsyoon@gmail.com"   
+ git config --local user.name "nextbirthday"   
+|it commit
+|it push
+git reomte add nextbirthday git@github.com:nextbirthday/Semi.git
+|it status
+git init semi
+|it clone git@github.com:nextbirthday/semi.git
+|d semi
+|it clone git@github.com:nextbirthday/semi.git
+|it status
+git clone git@github.com:nextbirthday/semi.git
+|it status
+|d semi
+|it status
+|it status
+|it add .
+|it status
+|it commit
+|it config --local user.email "dumarsyoon@gmail.com"
+|it config --local user.name "nextbirthday"
+|it commit
+|it push
+|it status
+|it add .
+|it status
+git commit -m "gitignore"
+|it push
+|it status
+|it add .
+|it status
+|it commit
+|it status
+|it push
+|it status
+|it status
+|it status
+git branch yoon
+|it status
+|it checkout yoon
+|it status
+|it status
+|it push
+|it pull
+|it status
+|it checkout main
+|it pull
+|it status
+|it checkout yoon
+|it pull
+|it branch -d yoon
+|it checkout main
+|it status
+git branch -d yoon
+|it status
+git checkout yoon
+|it branch sample
+|it checkout sample
+|it pull main
+|it log
+|it checkout main
+git branch sample
+|it checkout sample
+|it add .
+|it status
+git pull remote main
+|it pull origin main
+|it log
+|it status
+|it push
+git push --set-upstream origin sample
+|it status
+|it status
+|it branch
+|it status
+|it checkout main
+|it checkout sample
+|it checkout main
+|it branch -d sample
+|it status
+|it commit
+|it status
+|it push
+|it status
+git checkout sample
+|it status
+|it branch -d sample
+|it checkout main
+git branch -d sample
+|d semi
+|it branch tomato
+|it branch -d tomato
+|d workout
+|it status
+|it pull
+|it status
+|it add .
+|it commit
+|it push
+|it status
+|qlplus "/as sysdba
+|pconfig
+|d workout
+|it pull
+|it status
+|it log
+|d workout
+|it log
+|d semi
+|it branch tomato
+|it checkout tomato
+|it log
+git history
+git congig --global -e
+|d workout
+git congif --global -e
+|it config --global -e
+|d semi
+|d semi
+|it hist
+git config --local -e
+|it status
+|d semi
+|it checkout main
+|d workout
+|it config --global -e
+|it status
+|d semi
+cd semi
+|it checkout main
+|it checkout tomato
+echo b.txt > bbb
+|it status
+|it add .
+|it status
+git commit -m "tomato branch commit"
+|it push
+git push --set-upstream origin tomato
+|it status
+|d workout
+|it status
+|it fetch
+|it status
+|it add .
+|it status
+|it commit
+|it push
+|it status
+|d workout
+|it log
+|it log
+|d workout
+git log --graph --oneline
+|d workout
+|it status
+|it pull
+|d workout
+|it status
+|it add .
+|it commit
+|it push
+|d workout
+|it pull
+|d ..
+git clone git@github.com:nextbirthday/onion-talk.git
+|d ..\onion-talk\
+|it status
+|it add .
+ls -al
+|l
+|s
+alias
+|s
+|s
+git commit -m "onion-talk 프로젝트 추가 커밋"
+|it config --local user.email "dumarsyoon@gmail.com"
+|it config --local user.name "nextbirthday"
+|s
+git commit -m "onion-talk 프로젝트 추가 "
+|s
+|it push
+git checkout -b hojae
+|ouch test.file
+|s
+|it add .
+git commit -m "hojae 브랜치 파일 추가"
+|it checkout main
+git checkout jojae
+git checkout hojae
+git log --gra
+git log --graph
+|d ..\onion-talk\
+|s
+alias gc=git checkout $*
+|c main
+|s
+|s
+|lear
+gc hojae
+|l
+rm -rf test.file 
+|l
+|it add .
+|s
+|it restore .
+|s
+git restore --staged test.file
+|s
+|it restore .
+|l
+clear
+git merge main
+|it checkout main
+|l
+git merge hojae
+|l
+git branch -d hojae
+|s
+|it push
+|it status
+|l
+git branch tomato
+git checkout tomato
+|d ..\onion-talk\
+|it status
+|it add .
+|it status
+git commit -m "tomato 브랜치 작업"
+|it status
+|it push
+git push origin tomato
+|it checkout main
+|it branch -d tomato
+git merge tomato
+|l
+|it push
+|it status
+|l
+git branch -d tomato
+|l
+git push --delete origin/tomato
+git push --delete origin origin/tomato
+git push origin --delete origin/tomato
+git push origin --delete tomato
+|d ..\onion-talk\
+|l
+|l
+git checkout -b banana
+|it checkout main
+git branch -d banana
+|l
+|d ..\onion-talk\
+|it status
+|it add .
+|it status
+git commit -m "톡서버 톡서버스레드 추가"
+|it status
+|l
+|it push
+|it checkout -b hj
+|it status
+|it add .
+|it status
+git commit -m "회원가입, 로그인구현"
+|it status
+git push origin hj 
+|it status
+|it checkout main
+|it checkout hj
+|it push
+git push --set-upstream origin hj 
+|d workout
+|d ..
+|d .
+|d ...
+|d ../
+cd java
+|d workout
+|it status
+|it fetch
+|it status
+|it add .
+|it status
+|it commit
+|it status
+|l
+|it push
+|it status
+|l
+|d workout
+|it pull
+|it status
+|l
+|l
+|s
+|c
+|c main
+|d ..
+cd onion-talk\
+|it status
+|it add .
+|it status
+git commit -m "ID,PW찾기 로직 구현중"
+|it status
+|it push
+|d ..\onion-talk\
+|it checkout main
+|it checkout hj
+|d ..\onion-talk\
+|it status
+|it add .
+|it status
+git commit -m "0109"
+|it push
+|it checkout main
+|it merge hj
+|it push
+|it fetch
+|it status
+|it checkout hj
+|s
+|it status
+|it checkout main
+|it status
+|l
+|it pull
+|it status
+|it status
+|it push
+|it status
+|it checkout hj
+|it checkout main
+|it status
+|it add .
+|it status
+git commit
+|it status
+|it push
+|it status
+|it checkout hj
+|it checkout main
+|it status
+|it status
+|it add .
+git commit -m "OnionTalk main 브랜치 기본 틀 구현"
+|it push
+|it checkout hj
+git pull origin main
+|it status
+|s
+|d ..\onion-talk\
+|s
+|c main
+|it status
+|d ..\onion-talk\
+|it checkout hj
+|it status
+|it push
+|it status
+|d ../on
+|d ..\onion-talk\
+|it checkout main
+|s
+|it status
+|it add .
+|it commit -m "test.file 삭제"
+|it push
+|s
+|it checkout hj
+|d ..\onion-talk\
+|it status
+|s
+|it add .
+|it status
+git commit -m "test.file 삭제"
+|it push
+|s
+|d workout
+|it status
+git add KH-JAVA/src/main/java/TalkTalk/LoginApp.java
+|it status
+git add KH-JAVA/src/main/java/lecture_2022_12/week_4_CRUD/DeptViewMap.java
+|s
+git commit -m "KH-JAVA"
+|it push
+|it pull
+|d ..
+cd .
+cd ...
+|d ..
+|d ..
+|d ..
+|d ..
+git clone git@github.com:geundu/sub-project-test.git
+|it status
+|d sub-project-test\
+|it status
+git checkout -b focusrite
+|it push
+git git push --set-upstream origin focusrite
+git push --set-upstream origin focusrite
+|it status
+|d sub-project-test\
+|c main
+|it pull
+|it status
+git checkout focusrite
+git pull main
+|c main
+git branch -d focusrite
+|it push
+|it branch
+gc -b focusrite
+|d ..\onion-talk\
+|c main
+|s
+git tree/F
+|ree
+tree/F
+tree /F /A
+|s
+|c hj
+|it status
+|it status
+|s
+|s
+git restore onionChat/src/main/java/client/view/SignUpModel.java
+|s
+git restore onionChat/src/main/java/server/TalkServer.java
+|s
+|c hj
+|s
+|c main
+|s
+|s
+|c hj
+|it status
+|s
+|s
+|it add .
+|s
+|c main
+|c hj
+|d sub-project-test\
+touch test.txt
+|s
+|it add .
+|it status
+git commuit -m "test.txt 파일생성"
+|it push
+|s
+git restore --staged test.txt
+|s
+|s
+|c focusrite 
+|d workout
+|s
+|it add .
+git commit -m "불필요한 파일 삭제"
+|it push
+|it fetch
+|it push
+|it pull
+|it push
+|d workout
+tree
+|d ..\onion-talk\
+|c main
+|s
+git branch -a
+|c hj
+|s
+|it add .
+|it status
+git commit -m "ID/PW 찾기 구현"
+|s
+|it push
+|it status
+|c main
+|s
+|c hj
+|d ..\onion-talk\
+|l
+|d workout
+|l
+|d ..\onion-talk\
+|it status
+|c main
+|it status
+|it merge hj
+|s
+|it status
+|s
+|it push
+|s
+|it branch -d hj
+|it push
+|it branch
+git switch leehs
+|it pull
+|it branch
+|it checkout -b hj
+|s
+|s
+|it add .
+|it status
+git commit -m "Access Modifier 수정"
+|it push
+|it push --set-upstream origin hj
+|c main
+|it status
+|it merge hj
+|it status
+|it push
+|it branch -d hj
+|it push
+|s
+|s
+|c
+|it checkout -b hj
+|s
+git config --global -e
+git config --global
+|d ..\onion-talk\
+|s
+|s
+|d workout
+|it status
+|it add .
+|it status
+git commit -m "crud복습"
+|it push
+|qlplus "/as sysdba
+quit
+|d workout
+|it pull
+|it status
+sqlplus "/as sysdba
+|d workout\
+|it pull
+|d ..\onion-talk\
+|s
+|it checkout main
+|s
+git restore onionChat/src/main/java/client/view/SettingsBG.java
+|s
+|s
+|it add .
+|s
+git commit -m "교육자료 추가"
+|it push
+|c hj
+|s
+|d ..\onion-talk\
+|s
+|c main
+|s
+|c hj
+|s
+|c main
+|s
+|c hj
+|ouch test.file
+|s
+|c main
+gc
+|s
+|c hj
+cd worukout
+|d workout
+|s
+|it fetch
+|it pull
+|s
+|it log
+|c main
+|c hj
+|ouch test.file
+|c main
+|s
+git branch --all
+git hist
+|d workout
+|it status
+|it pull
+|c hj
+|s
+gc maon
+|c main
+|s
+|it log
+|c hj
+|it log
+|it status
+|it status
+|it checkout main
+|it status
+|it checkout hj
+touch test.file
+|it status
+|it checkout main
+|it status
+gc hj'
+|c hj
+|it add .
+git commit -m "file: test.file "
+|it status
+|c main
+|s
+|c hj
+|s
+|it push
+|d workout
+|it pull
+|it status
+|d ..\onion-talk\
+|it status
+|it add .
+|it status
+git commit -m "회원가입 시 가입날짜 구현"
+|it push
+|git push --set-upstream origin hj
+|it status
+|c main
+|s
+|it fetch
+|it merge hj
+|it status
+|it push
+|it status
+|it checkout -b hj
+|it branch -d hj
+|it branch
+|it status
+qq
+|it checkout -b hj
+|s
+|c main
+|it branch -d hj
+|s
+|it pull
+|it checkout -b hj
+|it status
+|d ..\onion-talk\
+|s
+|c main
+|s
+|c hj
+cd workout
+git merge --abort
+|it status
+|s
+git statis
+|it status
+ll
+|s
+|l
+|s
+|it branch
+gc ysy
+|s
+gc -b ysy
+|s
+|it add .
+|s
+git commit -m "backup"
+|s
+cd ../
+|d workout\
+|s
+|c main
+|it pull
+git merge --abort 
+git pull -f
+git mergetool
+|s
+git merge --continue
+|s
+|l
+git merge ysy 
+|s
+|it push
+|l
+|b -d ysy
+alias gb=git branch $*
+gb -d ysy
+|it pull
+|l
+|it status
+|d workout\
+|it status
+|it branch
+|it status
+|it add .
+|it status
+|pconfig
+|d ..\onion-talk\
+|s
+|c main
+|s
+|c hj
+|d ..\onion-talk\
+|it checkout main
+|it status
+git checkout hj
+|it add .
+|it status
+git commit -m "ID,PW찾기 구현"
+|it status
+|it checkout main
+|d ../on
+|d ..\onion-talk\
+|it status
+|it add .
+git commit -m "MyBatis Test, 메인화면 수정"
+|it push
+ git push --set-upstream origin hj
+|b remote
+gb origin
+git checkout main
+gb remote
+gb /?
+gb --hellp
+cls
+gb -l
+gb -l -remote
+|b -l --remote
+git remote prune origin 
+gb -l --remote
+|l
+|d ..
+|d java\workout\
+|it status
+|it add .
+git commit -m "JPanel 한 화면에서 패널바꾸기"
+|it status
+|it push 
+|d ..\onion-talk\
+|s
+|c hj
+|s
+|S
+GS
+|s
+|it add .
+git commit -m "fix: 불필요한 file 삭제"
+|it push
+|it status
+|d workout\
+|it status
+|it pull
+|s
+|d ..
+cd sub-project-test\
+|it status
+git restore common/src/main/java/util/MyBatisSqlSessionFactory.java
+git restore common/src/main/resources/mybatis-config.xml
+|c main
+|s
+|it pull
+gc focusrite 
+|d workout\
+|it pull
+|ode -v
+|pm -v
+|ode -v
+|ode test.js
+|d kh_html\
+|ode -v
+|ode test.js
+|d kh_html\
+node -v
+npm -v
+|d day1\
+|ode test.js
+status
+test.js
+console.log('hello');
+cd kh_html\
+cd day1\
+|s
+npm init --yes
+ls
+code .
+node test.js
+node rainbow.js 
+cd kh_html\day1\
+node addTest.js 
+|d ..\onion-talk\
+|s
+|it add .
+git commit -m "fix: 클래스 분리 및 컨벤션 통일"
+|it status
+|it push
+|c main
+|s
+git branch develop
+gc develop 
+|it pull origin hj
+git push 
+git push --set-upstream origin develop
+|c main
+|c hj
+|c main
+|s
+|it add .
+git commit -m "fix : 클래스 파일 컨벤션 통일"
+|it push
+|c main
+git branch -d develop 
+git loh
+|it log
+|d ..\o
+|d ..\onion-talk\
+|s
+|it merge hj
+|it status
+|it push
+|it status
+|c hj
+cd workout\
+|s
+|it add .
+|s
+git commit -m "도서관리 시스템 MVC패턴 실습"
+|it push
+git getch
+git fet h
+|it fetch
+|it status
+|it pull
+|it push
+|it status
+cd ..\o
+|d ..\onion-talk\
+|s
+|it add .
+|it commit -m "feat: main 최신화 및 같은시점에서 분기하기"
+|s
+|it push
+|c main
+|it status
+git merge hj
+|it status
+|it push
+|it status
+|s
+|d ..\onion-talk\
+|s
+|c hj
+|d ..\onion-talk\
+|it log
+gl
+|c main
+git branch ref
+gc ref
+|it reflog
+|c main
+git branch -d ref
+git reflog
+|c hj
+|s
+|c main
+|s
+|it add .
+|it commit -m "feat: main 최신화 및 같은시점에서 분기하기"
+|s
+|it add .
+|s
+git commit -m "feat: main 최신화 및 같은시점에서 분기하기"
+|it push
+|it pull
+|it status
+git branch
+git branch -d hj
+|s
+gb
+git checkout -b hj
+|s
+|s
+ipconfig
+|d ..\onion-talk\
+|it status
+|it add .
+git commit -m "feat: 서버, 클라이언트 채팅 구현중"
+|it push
+git push --set-upstream origin hj
+|d ..\onion-talk\
+|it status
+|it add .
+git commit -m "1:1 채팅구현"
+git psuh
+|it push
+|d ..
+cd java\workout\
+|it status
+|it add .
+git commit -m "도서관리 시스템 MVC 구현중"
+git fetch
+|it push
+|it pull
+git pull
+|d ..\onion-talk\
+|it status
+git commit -m "fix: Protocol import"
+|s
+|it add .
+|s
+git commit -m "fix: Protocol import"qqq
+s
+|it push
+|it status
+|it status
+cd ..
+git clone git@github.com:nextbirthday/KH-CSS.git
+cd KH-CSS\
+|it status
+|it add .
+|it commit -m ".gitignore initial commit"
+git config --local user.email "dumarsyoon@gmail.com"
+git config --local user.name "nextbirthday"
+|s
+git commit -m ".gitignore initial commit"
+|s
+|it push
+|s
+|it add .
+|s
+|s
+|d ..\onion-talk\
+|s
+|it add .
+git commit -m "fix: 채팅룸 입장한 사람 에러 수정"
+|it push
+|s
+|s
+|it add .
+git pushZzxcxzczx
+git pushqqqqqqqqqqqqqqqq
+git commit -m "feat: 채팅방 기능 작동 테스트"
+|it push
+|d ../on
+|d ..\onion-talk\
+|s
+|it add .
+git commit -m "fix: 메시지 유효성 체크"
+|it push
+|it add .
+cd ../on
+|d ..\onion-talk\
+git add .
+git commit -m "fix: 대화명 중복 제거"
+git push
+|it status
+|d ..\onion-talk\
+|it status
+|it log
+|d ..\onion-talk\
+git status
+git log
+|s
+|it restore .
+|s
+|d ..\onion-talk\
+|s
+gir restroe .
+gir restore .
+|it restore .
+|it pull origin hj
+|s
+|d ..\onion-talk\
+|s
+|s
+|it restore .
+|s
+git pull origin hj
+const http = require('http'); http.createServer((req, res) => {     res.writeHead(200, {'Content-Type': 'text/plain'});     res.end('Hello, World!\n'); }).listen(8080, '127.0.0.1'); console.log('Server running at http://127.0.0.1:8080/');
+|d ..\onion-talk\
+|s
+|c main
+|s
+cd ..\onion-talk\
+|s
+git restore .
+|s
+|c main
+|s
+git checkout -b test
+|s
+git pull origin backup
+|c hj
+|s
+|s
+|s
+|s
+gc main
+git branch -d test 
+git branch -D test
+gc hj
+gs
