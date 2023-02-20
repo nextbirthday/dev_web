@@ -35,7 +35,7 @@ public class MimeHtmlServlet2 extends HttpServlet {
         // 서블릿에서는 객체의 유지 정도가 다르다?
         // scope가 지원된다.
         // page scope - 그 페이지 안에서만 기억해준다. -쓰레기
-        // request scope - 요청이 유지되는 동안에만 유지된다. - URL주소가 그대로이면 유지 바뀌면 일어버림.
+        // request scope - 요청이 유지되는 동안에만 유지된다. - URL주소가 그대로이면 유지 바뀌면 잃어버림.
         // session scope - URL주소가 바뀌어도 유지된다. - 톰캣 기본 30분
         // application scope - phoenix - 사용하면 안된다.(서버가 다운됨.)
         HttpSession               session    = req.getSession();

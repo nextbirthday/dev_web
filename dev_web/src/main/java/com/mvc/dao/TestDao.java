@@ -11,7 +11,7 @@ import com.util.MyBatisCommonFactory;
 
 import lombok.extern.log4j.Log4j2;
 
-@Log4j2( topic = "test" )
+@Log4j2( topic = "database" )
 public class TestDao {
     
     MyBatisCommonFactory myBatisCommonFactory = new MyBatisCommonFactory();

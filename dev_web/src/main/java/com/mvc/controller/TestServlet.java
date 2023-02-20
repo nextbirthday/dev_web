@@ -13,7 +13,7 @@ import com.mvc.dao.TestDao;
 
 import lombok.extern.log4j.Log4j2;
 
-@Log4j2( topic = "test" )
+@Log4j2( topic = "database" )
 public class TestServlet extends HttpServlet {
     
     private static final long serialVersionUID = 1L;
@@ -71,7 +71,7 @@ public class TestServlet extends HttpServlet {
         // 아래 코드를 만나면 http://locaclhost:9000/test/getMemberList.jsp를 요청함
         
         // 테스트 시나리오
-        // 방법: TestServlet.java 소스에서 오른쪽 버튼 눌러서 Run on server 
+        // 방법: TestServlet.java 소스에서 오른쪽 버튼 눌러서 Run on server
         // 방법: http://locaclhost:9000/test/test.do
         res.sendRedirect( "./getMemberList.jsp" );
     }

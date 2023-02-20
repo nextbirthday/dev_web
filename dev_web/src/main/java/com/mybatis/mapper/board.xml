@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mybatis.mapper.BoardMapper">
+
+    <select id="getBoardList" parameterType="java.util.HashMap" resultType="java.util.HashMap">
+        SELECT
+        t.BM_NO ,
+        t.BM_TITLE ,
+        t.BM_WRITER ,
+        s.BS_FILE ,
+        t.BM_HIT ,
+        t.BM_GROUP ,
+        t.BM_POS ,
+        t.BM_STEP
+        FROM SCOTT.BOARD_MASTER_T t, SCOTT.BOARD_SUB_T s
+        WHERE t.BM_NO = s.BM_NO (+)
+        ORDER BY
+        t.BM_GROUP DESC, t.BM_STEP ASC
+    </select>
+
+
+
+</mapper>

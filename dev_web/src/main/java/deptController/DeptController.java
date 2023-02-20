@@ -16,7 +16,7 @@ import dept.logic.DeptDAO;
 import lombok.extern.log4j.Log4j2;
 
 @SuppressWarnings( "serial" )
-@Log4j2( topic = "dept" )
+@Log4j2( topic = "database" )
 public class DeptController extends HttpServlet {
     @Override
     protected void doGet( HttpServletRequest req, HttpServletResponse resp ) throws ServletException, IOException {
