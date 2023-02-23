@@ -7,4 +7,6 @@ String mem_id = request.getParameter( "mem_id" ); /* 여기에 사용되는 속�
 out.print( "사용자가 입력한 아이디 ===> " + mem_id + "\n" );
 String mem_pw = request.getParameter( "mem_pw" );
 out.print( "사용자가 입력한 비밀번호 ===> " + mem_pw );
+String mem_name = request.getParameter( "mem_name" );
+out.print( "사용자가 입력한 이름 ===> " + mem_name );
 %>

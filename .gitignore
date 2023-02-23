@@ -161,5 +161,21 @@ gradle-app.setting
 # Java heap dump
 *.hprof
 
+### react ###
+.DS_*
+*.log
+logs
+**/*.backup.*
+**/*.back.*
+.env
+
+node_modules
+bower_components
+
+*.sublime*
+
+psd
+thumb
+sketch
 ### properties 파일 ###
 *.properties

@@ -4,20 +4,54 @@
 
     <select id="getBoardList" parameterType="java.util.HashMap" resultType="java.util.HashMap">
         SELECT
-        t.BM_NO ,
-        t.BM_TITLE ,
-        t.BM_WRITER ,
-        s.BS_FILE ,
-        t.BM_HIT ,
-        t.BM_GROUP ,
-        t.BM_POS ,
-        t.BM_STEP
-        FROM SCOTT.BOARD_MASTER_T t, SCOTT.BOARD_SUB_T s
-        WHERE t.BM_NO = s.BM_NO (+)
+        BT.BM_NO ,
+        BT.BM_TITLE ,
+        BT.BM_WRITER ,
+        BS.BS_FILE ,
+        BT.BM_HIT ,
+        BT.BM_GROUP ,
+        BT.BM_POS ,
+        BT.BM_STEP
+        FROM SCOTT.BOARD_MASTER_T BT,
+        SCOTT.BOARD_SUB_T BS
+        WHERE BT.BM_NO = BS.BM_NO (+)
+        <if test='bm_no> 0'>
+            AND bm_no = #{bm_no}
+        </if>
+        <if test='combo_search != null and combo_search.equals("bm_title")'>
+            AND bm_title LIKE '%||#{keyword}||'%'
+        </if>
+        <if test='combo_search != null and combo_search.equals("bm_content")'>
+            AND bm_content LIKE '%||#{keyword}||'%'
+        </if>
+        <if test='combo_search != null and combo_search.equals("bm_writer")'>
+            AND bm_writer LIKE '%||#{keyword}||'%'
+        </if>
         ORDER BY
-        t.BM_GROUP DESC, t.BM_STEP ASC
+        BT.BM_GROUP DESC, BT.BM_STEP ASC
     </select>
 
+    <!-- bm_pos와 bm_step은 원글이면 0, 0으로 입력하고 댓글이면 read.jsp에서 가진 값에 각각 1을 더한 값으로 결정된다. 조회수는 0으로 하면되고 날짜는 시스템 날짜 정보로 등록한다. -->
+    <insert id="boardMasterInsert" parameterMap="map">
+        INSERT INTO SCOTT.BOARD_MASTER_T(bm_no, bm_title, bm_writer, bm_reg, bm_hit,
+        bm_group, bm_pos, bm_step)
+        VALUES(seq_board_no.nextval, #{bm_title}, #{bm_writer}, to_char(sysdate, 'YYYY-MM-DD'), 0, #{bm_group},
+        #{bm_pos}, #{bm_step})
+    </insert>
 
+    <!-- 첨부파일을 추가하는 경우에만 실행된다. 없으면 해당없음 -->
+    <insert id="boardSubInsert" parameterMap="map">
+        INSERT INTO SCOTT.BOARD_SUB_T(bm_no, bs_seq, bs_file, bs_size)
+        VALUES(#{bm_no}, 1,
+        #{bs_file}, #{bs_size})
+    </insert>
+    <!-- 내가 쓰는 댓글 뒤에 댓글이 존재하는 경우만 실행된다. 조건절에 들어오는 그룹번호와 step은 상세보기 화면에서 가져온 값이 대입되면 된다. -->
+    <update id="bmStepUpdate" parameterType="map">
+        UPDATE SCOTT.BOARD_MASTER_T
+        SET BM_STEP = BM_STEP +1
+        WHERE BM_GROUP = #{bm_group}
+        AND
+        BM_STEP > #{bm_step}
+    </update>
 
 </mapper>

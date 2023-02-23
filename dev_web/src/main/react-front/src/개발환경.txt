@@ -1,0 +1,74 @@
+
+리액트와 서블릿 연동하기 - dev_web [C:\Users\HOJAE\Desktop\Java\dev_web\dev_web]
+:yarn 패키지 매니저 사용
+설치시 -g를 주면 전역에서 사용가능하게 설치(-D 개발자 의존성 주입: spring maven, gradle)
+npm install -g yarn 
+[패키지매니저 버전확인 yarn -version]
+
+리액트 프로젝트 생성하기
+
+1. yarn create react-app [내가하고싶은 이름]
+단, 현재 바라보는 폴더 아래에 [내가하고싶은 이름]생성
+VSCode로 프로젝트 열 때도 위 경로에서 열어야 에러가 없다.
+
+2. yarn init --force 엔터
+그냥 엔터를 계속 디폴트값으로 package.json에 등록된다.
+
+실행하기 
+yarn start 엔터
+http://localhost:3000/
+
+ReactDOM.createRoot(rootElement).render(element(<Paint/><Nice/>))
+
+index.html이 호출이 되는데 -> index.js -> BrowserRouter로 App.jsx를 감싼다. -> App.jsx에서 Route통해 페이지 링크를 걸게된다.
+
+3.react-router-dom 설치 - 웹페이지 제작 필수 - 화면전환 - 링크도 포함
+index.js에 BrowserRouter추가하기 - 단 App.jsx를 감싸준다.
+  <React.Fragment>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  </React.Fragment>
+
+4. CSS추가분
+React-BootStrap
+yarn add react-bootstrap
+
+만일 React-BootStrap에 미지원 부분에 대해서는 bootstrap을 설치하여 사용자 정의 CSS로 처리한다.
+
+yarn add bootstrap -> CSS라이브러리 설치
+
+CSS를 자바스크립트 문법으로 처리해주는 styled-components 설치
+yarn add styled-components
+
+5. 폰트어썸 - 무료 이모티콘, 이모지 
+yarn add @fontawesome/fontawesome-free
+
+6. axios 설치 - 비동기 처리 - 톰캣 서버의 서블릿 요청 
+Moesif CORS - true/false;
+주의: CORS이슈 - 스프링
+
+export const jsonDeptList = (params) => {
+  return new Promise((resolve, reject) => {
+    try {
+      const response = axios({
+        method: 'get',
+        url: process.env.REACT_APP_DEV_WEB_IP + 'dept/jsonDeptList.st1',
+        params: params,
+      });
+      resolve(response);
+    } catch (error) {
+      reject(error);
+    }
+  });
+};
+
+7. firebase 설치 - 9.17.1
+yarn add firebase
+로그인인증
+회원가입지원
+RealtimeDatabaseServer - 채팅기능 활용
+
+.env사용 
+구글 키값, 카카오 키 값 
+깃 .gitignore 등록할 것
