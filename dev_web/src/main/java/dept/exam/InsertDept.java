@@ -1,4 +1,4 @@
-package deptController;
+package dept.exam;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -8,8 +8,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import dept.dto.Dept;
-import dept.logic.DeptDAO;
 import lombok.extern.log4j.Log4j2;
 
 @SuppressWarnings( "serial" )

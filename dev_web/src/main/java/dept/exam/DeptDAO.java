@@ -1,4 +1,4 @@
-package dept.logic;
+package dept.exam;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,8 +6,6 @@ import java.util.List;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 
-import dept.dto.Dept;
-import dept.util.MyBatisSessionFactory;
 import lombok.extern.log4j.Log4j2;
 
 @Log4j2( topic = "dept" )

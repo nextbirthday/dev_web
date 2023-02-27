@@ -8,8 +8,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import dept.dto.Dept;
-import dept.logic.DeptDAO;
+import dept.exam.Dept;
+import dept.exam.DeptDAO;
 import lombok.extern.log4j.Log4j2;
 
 /*

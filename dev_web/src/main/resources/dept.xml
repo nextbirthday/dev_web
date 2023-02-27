@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="dept">
-    <resultMap type="dept.dto.Dept" id="dept">
+    <resultMap type="clone.DeptVO" id="dept">
         <id property="deptno" column="DEPTNO" />
         <result property="dname" column="DNAME" />
         <result property="loc" column="LOC" />
@@ -11,12 +11,13 @@
         SELECT * FROM SCOTT.DEPT
     </select>
 
-    <insert id="insertDept" parameterType="dept.dto.Dept">
+    <insert id="insertDept" parameterType="clone.DeptVO">
         INSERT INTO
         SCOTT.DEPT
         VALUES( #{deptno}, #{dname}, #{loc} )
     </insert>
     <delete id="deleteDept">
+
     </delete>
     <update id="updateDept">
     </update>

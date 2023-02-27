@@ -12,8 +12,8 @@ import javax.servlet.http.HttpServletResponse;
 
 import com.google.gson.Gson;
 
-import dept.dto.Dept;
-import dept.logic.DeptDAO;
+import dept.exam.Dept;
+import dept.exam.DeptDAO;
 import lombok.extern.log4j.Log4j2;
 
 @SuppressWarnings( "serial" )
