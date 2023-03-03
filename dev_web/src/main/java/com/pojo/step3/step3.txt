@@ -1,0 +1,6 @@
+STEP3 - 스프링과 최대한 비슷하게
+String -> ModelAndView 객체를 추가
+spring4 version까지 잘 사용
+
+Model과 ModelMap 지원되면서 사용하지 않게 됨
+scope - request 오로지 UI지원을 위해

@@ -1,0 +1,8 @@
+STEP2 - 좀 더 스프링스럽게...
+
+ActionForward => String
+1)"redirect:XXX.jsp" or "redirect:XXX.sp2(입력,수정,삭제 처리 후 결과 페이지 처리목적)
+2)"forward:XXX.jsp"
+주의 XXX.sp2를 사용불가
+3)"업무폴더명/페이지이름
+WEB-INF/view/업무폴더명/페이지이름.jsp
