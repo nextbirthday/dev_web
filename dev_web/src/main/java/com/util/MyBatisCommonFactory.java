@@ -35,10 +35,4 @@ public class MyBatisCommonFactory {
         init();
         return sqlSessionFactory;
     }
-    
-    public static void main( String[] args ) {
-        MyBatisCommonFactory mcf = new MyBatisCommonFactory();
-        mcf.getSqlSessionFactory();
-    }
-    
 }

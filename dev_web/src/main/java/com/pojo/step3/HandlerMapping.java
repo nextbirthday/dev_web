@@ -22,12 +22,43 @@ public class HandlerMapping {
     public static Object getController( String[] task, HttpServletRequest req, HttpServletResponse res )
                     throws ServletException, IOException {
         
-        log.info( "task[0] = " + task[0] + ", task[1] = " + task[1] );
+        log.info( "task[0] = {} , task[1] = {} ", task[0], task[1] );
         
-        Controller3  controller3  = null;
-        String       path         = null;
-        ModelAndView modelAndView = null;
+        Controller3 controller3 = null;
         
-        return null;
+        Object object = null;
+        
+        if ( "board3".equals( task[0] ) ) {
+            
+            controller3 = new BoardController3();
+            
+            // 게시글 전체 목록
+            if ( "boardList".equals( task[1] ) ) { // html화면 출력이 나감 - text/html
+                object = controller3.boardList( req, res );
+            }
+            else if ( "jsonBoardList".equals( task[1] ) ) { // json 포맷으로 나감 - application/json
+                object = controller3.jsonBoardList( req, res );
+            }
+            else if ( "boardDetail".equals( task[1] ) ) {
+                object = controller3.boardDetail( req, res );
+            }
+            else if ( "boardInsert".equals( task[1] ) ) { // 글 입력- 새 글 쓰기와 댓글 쓰기
+                object = controller3.boardInsert( req, res );
+            }
+            else if ( "boardUpdate".equals( task[1] ) ) { // 글 수정 - 첨부파일 수정 유무 고려하기
+                object = controller3.boardUpdate( req, res );
+            }
+            else if ( "boardDelete".equals( task[1] ) ) { // 글 입력 - 첨부파일 삭제 유무 고려하기
+                object = controller3.boardDelete( req, res );
+            } // end of board
+              // 인증관리
+            else if ( "auth".equals( task[0] ) ) {}
+            // 회원관리
+            else if ( "member".equals( task[0] ) ) {}
+            // 주문관리
+            else if ( "order".equals( task[0] ) ) {}
+            
+        }
+        return object;
     }
 }

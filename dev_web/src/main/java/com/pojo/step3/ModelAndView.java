@@ -27,19 +27,22 @@ public class ModelAndView {
     HttpServletRequest        req         = null;
     List<Map<String, Object>> requestList = new ArrayList<>();
     
-    private String viewName;
-    
-    public void addObject( String name, Object object ) {
-        req.setAttribute( name, object );
-        Map<String, Object> pMap = new HashMap<>();
-        pMap.put( name, object );
-        requestList.add( pMap );
-    }
-    
     public ModelAndView() {}
     
     public ModelAndView( HttpServletRequest req ) {
         this.req = req;
+    }
+    
+    private String viewName;
+    
+    public void addObject( String name, Object object ) {
+        
+        req.setAttribute( name, object );
+        
+        Map<String, Object> pMap = new HashMap<>();
+        pMap.put( name, object );
+        
+        requestList.add( pMap );
     }
     
 }

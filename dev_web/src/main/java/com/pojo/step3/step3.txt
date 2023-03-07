@@ -4,3 +4,33 @@ spring4 version까지 잘 사용
 
 Model과 ModelMap 지원되면서 사용하지 않게 됨
 scope - request 오로지 UI지원을 위해
+
+게시판 구현을 위한 MVC패턴 설계
+
+1. 리액트를 고려한 설계입니까?
+
+2. JSON포맷을 지원하는 메서드가 추가되었습니까?
+
+3. 파일 업로드와 관련된 공통코드나 라이브러리가 선택이 되었나요??
+
+4. 유지보수가 편리하게 설계 되었습니까?
+
+5. MyBatis와 같은 ORM 솔루션들이 바뀌더라도 전체 설계 틀이 변하지 않도록 즉, 부분적 조립이 가능한 설계입니까?
+
+6. UI솔루션이 변경되더라도 클래스 설계에 영향이 가지 않도록 설계가 되었나요?
+
+7. 
+
+boardList.jsp -> 새 글쓰기 -> 글 번호 채번, 그룹번호 채번
+boardDetail.jsp -> 댓글쓰기 (1건 조회된 상태) -> 글 번호만 채번이고 그룹번호는 그대로 사용
+
+클라이언트 -> 전송 -> 서버
+form 전송 -> Restful API
+
+ajax => XXX.st3?bm_no=5&bm_title=제목,....
+
+location.href = "XXX.jsp?bm_no=5"
+
+fetch - 비동기처리
+ 
+axios - 비동기처리 - 모듈화 - NodeJS기반 - import(브라우저)

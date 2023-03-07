@@ -1,6 +1,7 @@
-package com.pojo.step3;
+package clone;
 
 import java.io.IOException;
+import java.io.Serializable;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -12,13 +13,12 @@ import javax.servlet.http.HttpServletResponse;
 import lombok.extern.log4j.Log4j2;
 
 @Log4j2
-@WebServlet( "*.st3" )
-public class ActionSupport extends HttpServlet {
+@WebServlet( "*.cl7" )
+public class ActionSupport7 extends HttpServlet implements Serializable {
     
-    private static final long serialVersionUID = 1L;
+    private static final long serialVersionUID = -678469824396796137L;
     
     protected void doService( HttpServletRequest req, HttpServletResponse res ) throws Exception {
-        log.info( "doService 호출" );
         
         String uri     = req.getRequestURI();
         String context = req.getContextPath();
@@ -33,38 +33,50 @@ public class ActionSupport extends HttpServlet {
         Object object = null;
         
         try {
-            object = HandlerMapping.getController( task, req, res );
+            object = HandlerMapping7.getController( task, req, res );
         }
         catch ( Exception e ) {
-            log.error( "{}", e );
+            log.error( "", e );
         }
         
-        if ( object != null ) { // redirect:XXX.jsp or forward:XXX.jsp
-            String[]     pageMove     = null;
-            ModelAndView modelAndView = null;
+        if ( object != null ) {
+            String[]      pageMove      = null;
+            ModelAndView7 modelAndView7 = null;
             
             if ( object instanceof String ) {
                 
                 if ( ( ( String ) object ).contains( ":" ) ) {
-                    log.info( " : 포함되어 있어요." );
                     pageMove = object.toString().split( ":" );
                 }
                 else {
-                    log.info( " : 포함되어 있지 않아요." );
                     pageMove = object.toString().split( "/" );
                 }
                 log.info( pageMove[0] + ", " + pageMove[1] );
             }
-            else if ( object instanceof ModelAndView ) {
-                modelAndView = ( ModelAndView ) object;
+            else if ( object instanceof ModelAndView7 ) {
+                modelAndView7 = ( ModelAndView7 ) object;
                 pageMove = new String[2];
-                pageMove[0] = ""; // forward -> ViewResolver else if() 타게된다. -> webapp
-                pageMove[1] = modelAndView.getViewName();
-                log.info( "pageMove[0] = {} , pageMove[1] = {}", pageMove[0], pageMove[1] );
+                pageMove[0] = "forward";
+                pageMove[1] = modelAndView7.getViewName();
+                
+                log.info( "pageMove[1] = {}", pageMove[1] );
             }
             
             if ( pageMove != null ) {
-                new ViewResolver( req, res, pageMove );
+                String path = pageMove[1];
+                
+                if ( "redirect".equals( pageMove[0] ) ) {
+                    res.sendRedirect( path );
+                }
+                else if ( "forward".equals( pageMove[0] ) ) {
+                    RequestDispatcher view = req.getRequestDispatcher( "/" + path + ".jsp" );
+                    view.forward( req, res );
+                }
+                else {
+                    path = pageMove[0] + "/" + pageMove[1];
+                    RequestDispatcher view = req.getRequestDispatcher( "/WEB-INF/view/" + path + ".jsp" );
+                    view.forward( req, res );
+                }
             }
         }
     }

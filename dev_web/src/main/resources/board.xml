@@ -3,43 +3,89 @@
 <mapper namespace="board">
     <select id="boardList" parameterType="java.util.HashMap" resultType="map">
         SELECT
-        bm.bm_no, bm.bm_title, bm.bm_writer, bs.bs_file
-        , bm.bm_hit, bm.bm_group, bm.bm_pos, bm.bm_step
-        FROM SCOTT.BOARD_MASTER_T bm,
-        SCOTT.BOARD_SUB_T bs
-        WHERE bm.bm_no = bs.bm_no(+)
-        <if test='bm_no  > 0'>
-            AND bm_no = #{bm_no}
+        BM.BM_NO, BM.BM_TITLE, BM.BM_WRITER, BM_CONTENT, BS.BS_FILE
+        , BM.BM_HIT, BM.BM_GROUP, BM.BM_POS, BM.BM_STEP, BM.BM_REG,
+        BM.BM_PW
+        FROM
+        SCOTT.BOARD_MASTER_T BM,
+        SCOTT.BOARD_SUB_T BS
+        WHERE BM.BM_NO = BS.BM_NO(+)
+        <if test='bm_no > 0'>
+            AND BM.BM_NO = #{bm_no}
         </if>
-        <if test='cb_search!=null  and cb_search.equals("bm_title")'>
-            AND bm_title LIKE '%'||#{keyword}||'%'
+        <if test='bm_reg!=null and bm_reg.length()!=0 and bm_reg!="undefined" '>
+            AND BM_REG LIKE '%'||#{bm_reg}||'%'
         </if>
-        <if test='cb_search!=null  and cb_search.equals("bm_content")'>
-            AND bm_content LIKE '%'||#{keyword}||'%'
+        <if test='cb_search!=null and cb_search.length()!=0 and cb_search.equals("bm_title")'>
+            AND BM_TITLE LIKE '%'||#{tb_search}||'%'
         </if>
-        <if test='cb_search!=null  and cb_search.equals("bm_writer")'>
-            AND bm_writer LIKE '%'||#{keyword}||'%'
+        <if test='cb_search!=null and cb_search.equals("bm_content")'>
+            AND BM_CONTENT LIKE '%'||#{tb_search}||'%'
         </if>
-        ORDER BY bm.bm_group desc, bm.bm_step asc
+        <if test='cb_search!=null and cb_search.equals("bm_writer")'>
+            AND BM_WRITER LIKE '%'||#{tb_search}||'%'
+        </if>
+        ORDER BY BM.BM_GROUP desc, BM.BM_STEP asc
     </select>
     <insert id="boardMInsert" parameterType="map">
-        INSERT INTO board_master_t(bm_no, bm_title, bm_writer, bm_reg, bm_hit
-        , bm_group, bm_pos,
-        bm_step)
-        VALUES(seq_board_no.nextval, #{bm_title}, #{bm_writer}, to_char(sysdate, 'YYYY-MM-DD')
-        , 0, #{bm_group}, #{bm_pos},
-        #{bm_step})
+        INSERT INTO SCOTT.BOARD_MASTER_T(BM_NO, BM_TITLE, BM_WRITER, BM_CONTENT, BM_REG, BM_HIT,
+        BM_PW,
+        BM_GROUP, BM_POS, BM_STEP
+        )
+        VALUES(#{bm_no}, #{bm_title}, #{bm_writer}, #{bm_content}, TO_CHAR (SYSDATE, 'YYYY-MM-DD
+        HH24:MI:SS')
+        , 0,
+        #{bm_pw},
+        #{bm_group}, #{bm_pos}, #{bm_step})
     </insert>
+
     <insert id="boardSInsert" parameterType="map">
-        INSERT INTO board_sub_t(bm_no, bs_seq, bs_file, bs_size)
-        VALUES(#{bm_no}, 1, #{bs_file},
-        #{bs_size})
+        INSERT INTO BOARD_SUB_T(BM_NO, BS_SEQ, BS_FILE, BS_SIZE)
+        VALUES(#{bm_no}, 1,
+        #{bs_file},#{bs_size})
     </insert>
-    <update id="bmStepUpdate" parameterType="map">
-        UPDATE board_master_t
-        SET bm_step = bm_step + 1
-        WHERE bm_group = #{bm_group}
-        AND bm_step >
+    <update id="bStepUpdate" parameterType="map">
+        UPDATE SCOTT.BOARD_MASTER_T
+        SET BM_STEP = BM_STEP + 1
+        WHERE BM_GROUP = #{bm_group}
+        AND
+        BM_STEP >
         #{bm_step}
     </update>
+    <update id="boardMUpdate" parameterType="map">
+        UPDATE SCOTT.BOARD_MASTER_T
+        SET BM_TITLE = #{bm_title}
+        <if test="bm_writer!=null">
+            , BM_WRITER = #{bm_writer}
+        </if>
+        <if test="bm_content!=null">
+            , BM_CONTENT = #{bm_content}
+        </if>
+        <if test="bm_pw!=null">
+            , BM_PW = #{bm_pw}
+        </if>
+        ,BM_REG = TO_CHAR (SYSDATE, 'YYYY-MM-DD HH24:MI:SS')
+        WHERE BM_NO = #{bm_no}
+    </update>
+
+    <select id="getBGroup" parameterType="string" resultType="int">
+        SELECT NVL((SELECT /*+index_desc(board_master_t i_board_group)*/
+        BM_GROUP
+        FROM SCOTT.BOARD_MASTER_T
+        WHERE rownum = 1
+        AND BM_GROUP >0), 0)+ 1 BM_GROUP
+        FROM DUAL
+    </select>
+
+    <select id="getBNO" parameterType="string" resultType="int">
+        SELECT NVL((SELECT /*+index_desc(board_master_t BOARD_BM_NO_PK)*/ BM_NO
+        FROM SCOTT.BOARD_MASTER_T
+        WHERE rownum = 1), 0)+ 1 BM_NO
+        FROM DUAL
+    </select>
+    <delete id="boardMDelete" parameterType="int">
+        DELETE FROM SCOTT.BOARD_MASTER_T
+        WHERE BM_NO=#{value}
+    </delete>
+
 </mapper>
